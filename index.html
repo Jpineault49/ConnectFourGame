@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Give your game / page a title! -->
+  <title> Connect Four! </title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="icon" href="images/redinyellow.png">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <!-- This will load the script file AFTER the document is loaded -->
+  <script src="script.js" defer></script>
+
+</head>
+
+<body>
+  <h1>
+    <center>Connect Four </center>
+  </h1>
+
+  <center><button id="two_player"> 2 Player </button></center>
+  <br>
+
+  <!--Display Winner-->
+  <div id="display_winner" hidden> </div>
+  <table id="game_board" hidden>
+    <tr>
+      <td> <button id="btn_1"> Click Me (1)</button></td>
+      <td> <button id="btn_2"> Click Me (2)</button></td>
+      <td> <button id="btn_3"> Click Me (3)</button></td>
+      <td> <button id="btn_4"> Click Me (4)</button></td>
+      <td> <button id="btn_5"> Click Me (5)</button></td>
+      <td> <button id="btn_6"> Click Me (6)</button></td>
+      <td> <button id="btn_7"> Click Me (7)</button></td>
+    </tr>
+    <tr>
+      <td><img src="images/blankcircle.png" id="00" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="01" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="02" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="03" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="04" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="05" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="06" width="50px" </td>
+    </tr>
+    <tr>
+      <td><img src="images/blankcircle.png" id="10" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="11" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="12" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="13" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="14" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="15" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="16" width="50px" </td>
+    </tr>
+    <tr>
+      <td><img src="images/blankcircle.png" id="20" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="21" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="22" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="23" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="24" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="25" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="26" width="50px" </td>
+    </tr>
+    <tr>
+      <td><img src="images/blankcircle.png" id="30" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="31" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="32" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="33" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="34" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="35" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="36" width="50px" </td>
+    </tr>
+    <tr>
+      <td><img src="images/blankcircle.png" id="40" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="41" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="42" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="43" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="44" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="45" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="46" width="50px" </td>
+    </tr>
+    <tr>
+      <td><img src="images/blankcircle.png" id="50" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="51" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="52" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="53" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="54" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="55" width="50px" </td>
+      <td><img src="images/blankcircle.png" id="56" width="50px" </td>
+    </tr>
+  </table>
+  <!-- Show Players Turn  -->
+  <div id="whos_turn" hidden>
+
+
+  </div>
+
+  <br>
+  <a href="explanation.html">
+    <center> <button id="instruction_page"> Instructions </button> </center>
+  </a>
+
+
+</body>
+
+</html>
