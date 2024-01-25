@@ -4,34 +4,26 @@ html, body {
   background-color: #004cff;
 }
 
-button {
-  width:100px;
-  height:100px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-table {
+table,td {
   background-color: blue;
   margin-left: auto; 
   margin-right: auto;
+  width:50 ;
+  height:50 ;
 }
 
 h1 {
   color: red;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family:Arial, Helvetica;
   font-weight: 900;
-  font-size: 75px;
 }
 
 button {
   background-color: yellow;
   color: red;
   font-family: sans-serif;
-  font-weight: 900;
-  font-size: ;
-  width: 50%;
+  font-weight: 900; 
+  font-size: 16px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -39,8 +31,9 @@ button {
 
 p, div {
   font-family:Roboto;
-  font-weight: normal; 
   color: yellow;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
